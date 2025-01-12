@@ -1,7 +1,8 @@
 <template>
     <article class="prose dark:prose-invert max-w-none">
-        <div class="my-12 highlight inline-block">
-            Messing around with pull requests and changes
+        <div class="my-12 inline-block">
+            <p class="highlight highlight-yellow">Messing around with pull requests and changes</p>
+            <p class="highlight highlight-green">Green highlight notice</p>
         </div>
         <ContentDoc path="/"/>
     </article>
@@ -9,8 +10,14 @@
 
 <style>
 .highlight {
-    background-color: yellow;
     padding: 5px 15px;
     border-radius: 8px;
+}
+.highlight-yellow {
+    background-color: yellow;
+}
+.highlight-green {
+    background-color: green;
+    color: white;
 }
 </style>
