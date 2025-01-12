@@ -3,6 +3,7 @@
         <div class="my-12 inline-block">
             <p class="highlight highlight-yellow">Messing around with pull requests and changes</p>
             <p class="highlight highlight-green">Green highlight notice</p>
+            <p class="highlight highlight-purple">Purple notice on new branch</p>
         </div>
         <ContentDoc path="/"/>
     </article>
@@ -18,6 +19,10 @@
 }
 .highlight-green {
     background-color: green;
+    color: white;
+}
+.highlight-purple {
+    background-color: purple;
     color: white;
 }
 </style>
